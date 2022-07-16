@@ -23,13 +23,13 @@
             </a>
             <ul class="navbar-list">
                 <li class="list-item">
-                    <a class="item-link" href="#">Yangiliklar</a>
+                    <a class="item-link" href="#news">Yangiliklar</a>
                 </li>
                 <li class="list-item">
-                    <a class="item-link" href="#">Kurslar</a>
+                    <a class="item-link" href="#courses">Kurslar</a>
                 </li>
                 <li class="list-item">
-                    <a class="item-link" href="#">Ustozlar</a>
+                    <a class="item-link" href="#teachers">Ustozlar</a>
                 </li>
                 <li class="list-item">
                     <a class="item-link" href="#">Fotolavhalar</a>
@@ -61,7 +61,7 @@
     <main class="main container">
         
         <!-- News -->
-        <section class="news">
+        <section class="news" id="news">
             <h2 class="main-title">Yangiliklar</h2>
             <div class="news-cards">
                 <div class="news-card">
@@ -88,7 +88,7 @@
         </section>
 
         <!-- Courses -->
-        <section class="courses">
+        <section class="courses" id="courses">
             <h2 class="main-title">Kurslar</h2>
             <div class="courses-cards">
                 <div class="courses-card">
@@ -115,6 +115,85 @@
                         <a class="courses-btn" href="#">Kursga yozilish</a>
                     </div>
                 </div>
+            </div>
+            <div class="slider-points">
+                <div class="point active"></div>
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+        </section>
+
+        <!-- Teachers -->
+        <section class="teachers" id="teachers">
+            <h2 class="main-title">Ustozlar</h2>
+            <div class="teachers-cards">
+                <div class="teachers-card">
+                    <img src="./src/images/teachers-1.jpg" alt="Qodir akaning rasmi" width="370" height="214" srcset="./src/images/teachers-1.jpg 1x, ./src/images/teachers-1@2x.jpg 2x">
+                    <div class="teachers-card-content">
+                        <h3 class="card-title">Asadov Qodir</h3>
+                        <p class="teachers-card-description">Matematika fani o'qituvchisi</p>
+                        <p class="teachers-card-description">Ish tajribasi: 8 yil</p>
+                        <p class="teachers-card-description">O'qitgan talabalari soni: 500+</p>
+                    </div>
+                </div>
+                <div class="teachers-card">
+                    <img src="./src/images/teachers-2.jpg" alt="Jasur akaning rasmi" width="370" height="214" srcset="./src/images/teachers-2.jpg 1x, ./src/images/teachers-2@2x.jpg 2x">
+                    <div class="teachers-card-content">
+                        <h3 class="card-title">Ergashev Jasur</h3>
+                        <p class="teachers-card-description">Fizika fani o'qituvchisi</p>
+                        <p class="teachers-card-description">Ish tajribasi: 5 yil</p>
+                        <p class="teachers-card-description">O'qitgan talabalari soni: 400+</p>
+                    </div>
+                </div>
+                <div class="teachers-card">
+                    <img src="./src/images/teachers-3.jpg" alt="Alibek akaning rasmi" width="370" height="214" srcset="./src/images/teachers-3.jpg 1x, ./src/images/teachers-3@2x.jpg 2x">
+                    <div class="teachers-card-content">
+                        <h3 class="card-title">Murodov Alibek</h3>
+                        <p class="teachers-card-description">Ingliz tili fani o'qituvchisi</p>
+                        <p class="teachers-card-description">Ish tajribasi: 4 yil</p>
+                        <p class="teachers-card-description">O'qitgan talabalari soni: 300+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-points">
+                <div class="point active"></div>
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+        </section>
+
+        <!-- Lessons -->
+        <section class="lessons" id="lessons">
+            <h2 class="main-title">Darslardan fotolavhalar</h2>
+            <div class="lessons-images">
+                <div class="lessons-img-box">
+                    <img class="lessons-image" src="./src/images/lessons-1.jpg" alt="Qo'lini ko'tarib turgan o'quvchilar rasmi" width="369" height="273" srcset="./src/images/lessons-1.jpg 1x, ./src/images/lessons-1@2x.jpg 2x">
+                </div>
+                <div class="lessons-img-box">
+                    <img class="lessons-image" src="./src/images/lessons-2.jpg" alt="Kimnidir ko'rsatayotgan okaning rasmi" width="369" height="273" srcset="./src/images/lessons-2.jpg 1x, ./src/images/lessons-2@2x.jpg 2x">
+                </div>
+                <div class="lessons-img-box">
+                    <img class="lessons-image" src="./src/images/lessons-3.jpg" alt="Dars qilayotgan o'quvchilar rasmi" width="369" height="273" srcset="./src/images/lessons-3.jpg 1x, ./src/images/lessons-3@2x.jpg 2x">
+                </div>
+                <div class="lessons-img-box">
+                    <img class="lessons-image" src="./src/images/lessons-4.jpg" alt="Dars qilayotgan o'quvchilar rasmi" width="369" height="273" srcset="./src/images/lessons-4.jpg 1x, ./src/images/lessons-4@2x.jpg 2x">
+                </div>
+                <div class="lessons-img-box">
+                    <img class="lessons-image" src="./src/images/lessons-5.jpg" alt="O'quvchi o'qituvchidan narsa sorayapti" width="369" height="273" srcset="./src/images/lessons-5.jpg 1x, ./src/images/lessons-5@2x.jpg 2x">
+                </div>
+                <div class="lessons-img-box">
+                    <img class="lessons-image" src="./src/images/lessons-6.jpg" alt="Zo'r deyayotgan bolalar rasmi" width="369" height="273" srcset="./src/images/lessons-6.jpg 1x, ./src/images/lessons-6@2x.jpg 2x">
+                </div>
+            </div>
+        </section>
+
+        <!-- Video lessons -->
+        <section class="video-lessons">
+            <h2 class="main-title">Darslardan videolavhalar</h2>
+            <div class="video-lessons-content">
+                <iframe width="370" height="273" src="https://www.youtube.com/embed/nE6gUj8bl6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="370" height="273" src="https://www.youtube.com/embed/RgfYf3tE7E8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="370" height="273" src="https://www.youtube.com/embed/ULM6ifDOA8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="slider-points">
                 <div class="point active"></div>

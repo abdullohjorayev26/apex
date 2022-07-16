@@ -227,3 +227,71 @@ body {
 .courses-btn:hover {
     opacity: .7;
 }
+
+/* Teachers */
+.teachers {
+    margin-bottom: 190px;
+    position: relative;
+}
+
+.teachers-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teachers-card {
+    width: 370px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.13);
+}
+
+.teachers-card-content {
+    padding: 37px;
+}
+
+.teachers-card-content > .card-title {
+    margin-bottom: 20px;
+}
+
+.teachers-card-description {
+    margin-bottom: 10px;
+}
+
+.teachers-card-description:last-child {
+    margin-bottom: 0;
+}
+
+/* Lessons */
+.lessons {
+    margin-bottom: 150px;
+}
+
+.lessons-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+
+.lessons-img-box {
+    width: 369px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.lessons-image {
+    transition: .3s ease;
+}
+
+.lessons-img-box:hover .lessons-image {
+    transform: scale(1.1);
+}
+
+/* Video lessons */
+.video-lessons {
+    margin-bottom: 190px;
+    position: relative;
+}
+
+.video-lessons-content {
+    display: flex;
+    justify-content: space-between;
+}
