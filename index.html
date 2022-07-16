@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- LINK FOR FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- Header -->
@@ -32,19 +34,19 @@
                     <a class="item-link" href="#teachers">Ustozlar</a>
                 </li>
                 <li class="list-item">
-                    <a class="item-link" href="#">Fotolavhalar</a>
+                    <a class="item-link" href="#lessons">Fotolavhalar</a>
                 </li>
                 <li class="list-item">
-                    <a class="item-link" href="#">Videolavhalar</a>
+                    <a class="item-link" href="#video-lessons">Videolavhalar</a>
                 </li>
                 <li class="list-item">
-                    <a class="item-link" href="#">Natijalar</a>
+                    <a class="item-link" href="#students-results">Natijalar</a>
                 </li>
                 <li class="list-item">
-                    <a class="item-link" href="#">Izohlar</a>
+                    <a class="item-link" href="#comments">Izohlar</a>
                 </li>
                 <li class="list-item">
-                    <a class="item-link" href="#">Aloqa</a>
+                    <a class="item-link" href="#contact">Aloqa</a>
                 </li>
             </ul>
         </nav>
@@ -188,7 +190,7 @@
         </section>
 
         <!-- Video lessons -->
-        <section class="video-lessons">
+        <section class="video-lessons" id="video-lessons">
             <h2 class="main-title">Darslardan videolavhalar</h2>
             <div class="video-lessons-content">
                 <iframe width="370" height="273" src="https://www.youtube.com/embed/nE6gUj8bl6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -203,7 +205,7 @@
         </section>
 
         <!-- Students results -->
-        <section class="students-results">
+        <section class="students-results" id="students-results">
             <h2 class="main-title">O'quvchilarimiz natijalari</h2>
             <div class="students-results-cards">
                 <div class="students-results-card">
@@ -237,6 +239,115 @@
                 <div class="point"></div>
             </div>
         </section>
+
+        <!-- Comments -->
+        <section class="comments" id="comments">
+            <h2 class="main-title">Mijozlarimiz izohlari</h2>
+            <div class="comments-cards">
+                <div class="comments-card">
+                    <img src="./src/images/customer-1.jpg" alt="Odina opaning rasmi" width="370" height="206" srcset="./src/images/customer-1.jpg 1x, ./src/images/customer-1@2x.jpg 2x">
+                    <div class="comments-card-content">
+                        <h3 class="card-title">Karimova Odina</h3>
+                        <p class="comments-course">TDMI 1-kurs talabasi</p>
+                        <p class="comments-card-description">Men talaba bo'lishimga sababchi bo'lgan eng zo'r o'quv markaz.</p>
+                        <div class="stars">
+                            <img src="./src/images/star.svg" alt="Star" width="14" height="14">
+                            <img src="./src/images/star.svg" alt="Star" width="14" height="14">
+                            <img src="./src/images/star.svg" alt="Star" width="14" height="14">
+                            <img src="./src/images/star.svg" alt="Star" width="14" height="14">
+                            <img src="./src/images/star.svg" alt="Star" width="14" height="14">
+                        </div>
+                    </div>
+                </div>
+                <div class="comments-card">
+                    <img src="./src/images/customer-2.jpg" alt="Durdona opaning rasmi" width="370" height="206" srcset="./src/images/customer-2.jpg 1x, ./src/images/customer-2@2x.jpg 2x">
+                    <div class="comments-card-content">
+                        <h3 class="card-title">Azizova Durdona</h3>
+                        <p class="comments-course">TATU 1-kurs talasi</p>
+                        <p class="comments-card-description">Zamonaviy kasblarni o'rganish uchun qulay o'quv markaz deya tavsiya qilaman</p>
+                        <div class="stars">
+                            <img src="./src/images/star.svg" alt="Star" width="14" height="14">
+                            <img src="./src/images/star.svg" alt="Star" width="14" height="14">
+                            <img src="./src/images/star.svg" alt="Star" width="14" height="14">
+                            <img src="./src/images/star.svg" alt="Star" width="14" height="14">
+                            <img src="./src/images/star.svg" alt="Star" width="14" height="14">
+                        </div>
+                    </div>
+                </div>
+                <div class="comments-card">
+                    <img src="./src/images/customer-3.jpg" alt="Olimjon akaning rasmi" width="370" height="206" srcset="./src/images/customer-3.jpg 1x, ./src/images/customer-3@2x.jpg 2x">
+                    <div class="comments-card-content">
+                        <h3 class="card-title">Madrahimov Olimjon</h3>
+                        <p class="comments-course">TDYU 1-kurs talabasi</p>
+                        <p class="comments-card-description">Eng tajribali ustozlar jamosiga ega o'quv markaz sifatiad tavsiya qilaman.</p>
+                        <div class="stars">
+                            <img src="./src/images/star.svg" alt="Star" width="14" height="14">
+                            <img src="./src/images/star.svg" alt="Star" width="14" height="14">
+                            <img src="./src/images/star.svg" alt="Star" width="14" height="14">
+                            <img src="./src/images/star.svg" alt="Star" width="14" height="14">
+                            <img src="./src/images/star.svg" alt="Star" width="14" height="14">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-points">
+                <div class="point active"></div>
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <h2 class="main-title">Biz bilan bog'lanish</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.3315289089737!2d69.29105581506471!3d41.366881305229825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef3e022eaf73b%3A0x1eec8ae63e8e83a9!2s%22LOOOK%22%20Yunus%20obod!5e0!3m2!1sru!2s!4v1657978002891!5m2!1sru!2s" width="100%" height="230" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="contact-content">
+                <div class="contact-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="contact-location-text">Toshkent shahri, Chilonzor tumani, Ustozlar ko'chasi, 13-uy</p>
+                </div>
+                <div class="contact-phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <a class="contact-phone-number" href="tel:+998903505555">+998 90 350 55 55</a>
+                </div>
+                <div class="contact-email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a class="contact-email-address" href="mailto:apexedu@gmail.com">apexedu@gmail.com</a>
+                </div>
+                <div class="contact-social">
+                    <p class="contact-social-text">Ijtimoiy tarmoqdagi sahifalarimiz:</p>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="footer container">
+        <h2 class="main-title">Aloqa</h2>
+        <form action="/server.php">
+            <input class="input-name" type="text" name="name" id="name" placeholder="Ism va familiyangizni yozing">
+            <input class="input-number" type="text" name="number" id="number" placeholder="Telefon raqamingizni yozing">
+            <input class="input-number" type="email" name="email" id="email" placeholder="Email manzilingizni yozing">
+            <button class="form-button" type="submit">Yuborish</button>
+        </form>
+        <hr class="rule">
+        <a class="footer-logo" href="./index.html">
+            <img src="./src/images/logo.svg" alt="Logo" width="100" height="100">
+            <span class="footer-logo-content">
+                <span class="footer-logo-title">Apex Ta'lim</span>
+                <span class="footer-logo-description">Talaba bo'lishingizga albatta ishonamiz</span>
+            </span>
+        </a>
+        <p class="copyright">&copy; 2021. Apex ta'lim. Xizmatlar litsenziyalangan.</p>
+    </footer>
 </body>
 </html>
